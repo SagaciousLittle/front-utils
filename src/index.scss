@@ -1,0 +1,17 @@
+// 可以使用嵌套，变量，计算等特性，自行翻阅sass学习 link: https://www.sass.hk/
+// 可以在dist对应文件查看编译后的结果
+body {
+  color: red;
+  $size: 13px;
+  div {
+    display: flex;
+    font-size: $size;
+    // 可直接计算
+    width: (100% / 3);
+    // 可带单位计算，下面案例为px转rem，由此推导（40px * 1rem / 16px），约去px单位
+    height: (40rem / 16);
+  }
+  span {
+    font-size: $size;
+  }
+}

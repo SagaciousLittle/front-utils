@@ -1,0 +1,35 @@
+{
+  "name": "@sagacious/front-utils",
+  "version": "1.0.0",
+  "description": "前端工程化工具",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp",
+    "fix": "eslint --fix src/**/*.js",
+    "clear": "rimraf dist"
+  },
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SagaciousLittle/front-utils.git"
+  },
+  "author": "SagaciousLittle",
+  "email": "guoxiaozhuang4@outlook.com",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.7.0",
+    "@babel/preset-env": "^7.7.0",
+    "chalk": "^2.4.2",
+    "core-js": "^3.3.6",
+    "dayjs": "^1.8.16",
+    "eslint": "^6.6.0",
+    "eslint-config-sagas": "^0.0.6",
+    "execa": "^3.2.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-babel": "^8.0.0",
+    "gulp-sass": "^4.0.2",
+    "rimraf": "^3.0.0"
+  }
+}
